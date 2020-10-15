@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  flex: 1;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+}
+.layout-content {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.left-layout-content {
+  width: 250px;
+  height: 100%;
+  align-self: flex-start;
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
+}
+.right-layout-content {
+  flex: 1;
+  padding: 20px 0 20px 20px;
+}
+.search-input {
+  margin-bottom: 15px;
+}

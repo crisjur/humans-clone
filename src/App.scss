@@ -1,0 +1,9 @@
+@import '~antd/dist/antd.css';
+@import './styles/_index';
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

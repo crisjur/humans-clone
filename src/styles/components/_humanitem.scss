@@ -1,0 +1,23 @@
+.human-list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.human-item {
+  font-size: 1rem;
+  margin: 5px 0;
+  margin-left: -20px;
+  margin-right: -20px;
+  cursor: pointer;
+  padding: 5px 10px;
+  &:hover {
+    background-color: rgb(244, 244, 244);
+  }
+}
+.human-item-selected {
+  background-color: rgb(223, 223, 223);
+  &:hover {
+    background-color:  rgb(223, 223, 223);
+  }
+}

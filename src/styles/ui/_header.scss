@@ -1,0 +1,26 @@
+.header {
+  height: 56px;
+  background-color: #343a40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-side {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  background-color: transparent;
+  color: #FFF;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin-right: 15px;
+}

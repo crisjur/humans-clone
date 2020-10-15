@@ -1,0 +1,12 @@
+.nav-btn-container {
+  background-color: transparent;
+  padding: 5px 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.active {
+  color: #FFF;
+}
+.inactive {
+  color: hsla(0,0%,100%,.5);
+}

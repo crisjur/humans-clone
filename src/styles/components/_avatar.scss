@@ -1,0 +1,18 @@
+.avatar-wrap {
+  display: flex;
+  flex-direction: row;
+  .human-name {
+    font-size: 1.5rem;
+    cursor: text;
+  }
+  .ellipsis-icon {
+    margin-top: 8px;
+    color: #007bff;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .avatar {
+    cursor: pointer;
+  }
+}

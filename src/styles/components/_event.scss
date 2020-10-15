@@ -1,0 +1,25 @@
+.event-item {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  background-color: rgba(0, 0, 0, .03);
+  .calendar-icon {
+    font-size: 24px;
+  }
+  .event-title {
+    margin-left: 1rem;
+  }
+  .menu-icon {
+    color: #007bff;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .event-date {
+    color: #6c757d;
+    font-size: 12px;
+  }
+}
